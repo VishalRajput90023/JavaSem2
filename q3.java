@@ -1,3 +1,4 @@
+//Use o single dimensional array
 public class q3
 {
 public static void main(String args[])

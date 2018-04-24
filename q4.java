@@ -1,3 +1,5 @@
+//Two dimensional array
+
 public class q4
 
 {
@@ -20,7 +22,6 @@ for(i=0;i<a;i++)
 for(j=0;j<b;j++)
 System.out.print(twodi[i][j]+"   ");
 System.out.println();
-
 }
 }
 }
