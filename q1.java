@@ -1,12 +1,14 @@
+ //Sum of two numbers using command line arguments
+ 
  public class q1
 {
- public static void main(String ar[]) 
+ public static void main(String args[]) 
  { 
-  int x,y,s; 
+   int x,y,s;
 
-  x=Integer.parseInt(ar[0]); 
-  y=Integer.parseInt(ar[1]);
+  x=Integer.parseInt(args[0]); 
+  y=Integer.parseInt(args[1]);
   s=x+y;
  System.out.println("sum of " + x + " and " + y +" is " +s);
- } 
+   } 
  }
